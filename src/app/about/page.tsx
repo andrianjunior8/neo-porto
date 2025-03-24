@@ -1,11 +1,11 @@
 import React from "react";
 
-const Tester = () => {
+const About = () => {
   return (
     <div className="bg-white">
-      <div>test</div>
+      <div>about</div>
     </div>
   );
 };
 
-export default Tester;
+export default About;
