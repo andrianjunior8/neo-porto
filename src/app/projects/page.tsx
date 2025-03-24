@@ -49,7 +49,10 @@ const Projects = () => {
                   <div className="grid grid-cols-5 mt-2">
                     {item.stack.map((stck) => {
                       return (
-                        <div className="rounded-full w-12 h-12 bg-white justify-center items-center flex">
+                        <div
+                          key={stck}
+                          className="rounded-full w-12 h-12 bg-white justify-center items-center flex"
+                        >
                           <img src={stck} alt="test" className="w-8 h-8 "></img>
                         </div>
                       );
